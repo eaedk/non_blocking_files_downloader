@@ -40,15 +40,17 @@ Download history will be saved in `download_history.csv`.
 ---
 
 ## 📁 Files
-
+```plaintext
 pdf-downloader/
+├── src/
+│   └── downloader.py
 ├── downloader.py
 ├── requirements.txt
 ├── download_history.csv         # auto-generated
 ├── tests/
 │   └── test_downloader.py
 └── README.md
-
+```
 
 | File               | Description                                |
 |--------------------|--------------------------------------------|
