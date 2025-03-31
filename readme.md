@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ### 2. Run the script
 
 ```bash
-python downloader.py
+python src/downloader.py
 ```
 
 Download history will be saved in `download_history.csv`.
