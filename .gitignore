@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Downloaded files
+file_*.pdf
+
+# Auto-generated download history
+download_history.csv
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test output
+.pytest_cache/
+htmlcov/
+coverage.xml
+
+# VSCode / editor configs
+.vscode/
+.idea/
+*.swp
