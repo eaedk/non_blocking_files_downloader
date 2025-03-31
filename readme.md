@@ -42,14 +42,20 @@ Download history will be saved in `download_history.csv`.
 ## 📁 Files
 ```plaintext
 pdf-downloader/
-├── src/
-│   └── downloader.py
-├── downloader.py
+├── Downloads/ # auto-generated
+│   └── pdf/
+│       ├── download_history.csv
+│       └── file_*...*.pdf
+├── pytest.ini
+├── README.md
 ├── requirements.txt
-├── download_history.csv         # auto-generated
-├── tests/
-│   └── test_downloader.py
-└── README.md
+├── src/
+│   ├── __init__.py
+│   └── downloader.py
+└── tests/
+    ├── __init__.py
+    └── test_downloader.py
+
 ```
 
 | File               | Description                                |
